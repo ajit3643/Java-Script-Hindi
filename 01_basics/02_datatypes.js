@@ -13,15 +13,15 @@ let address; // undefined
 let state = null;
 
 /*
-There are two types of datatypes!
+There are two types of datatypes!    for better understanding visit MDN
 
 Primitive
 . number 
 . bigint
 . string   => ""
-. boolen   => true/false
-. null
-. undefined 
+. boolen   => The Boolean type represents a logical entity and is inhabited by two values: true and false.
+. null     => The Null type is inhabited by exactly one value: null.
+. undefined => The Undefined type is inhabited by exactly one value: undefined.
 . symbol
 
 Non - primitive
