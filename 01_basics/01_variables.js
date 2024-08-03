@@ -12,6 +12,12 @@ The keywords var, let, and const in JavaScript define the variable scope and beh
 The var keyword has function scope and is hoisted. 
 The let and const keywords have block scope.
 Perfer not to use var.
+Example : 
+var myName = "Chris";
+var myName = "Bob";
+But the following would throw an error on the second line:
+let myName = "Chris";
+let myName = "Bob";
 */
 
 console.table([accountId, accountEmail, accountPassword, accountCity,accountState]);
