@@ -12,8 +12,6 @@ let name = "Ajit";
 let address; // undefined
 let state = null;
 
-
-
 /*
 There are two types of datatypes!
 
