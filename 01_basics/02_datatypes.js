@@ -12,6 +12,10 @@ let name = "Ajit";
 let address; // undefined
 let state = null;
 
+console.log(typeof undefined); // undefined
+console.log(typeof null); // onject
+
+
 /*
 There are two types of datatypes!    for better understanding visit MDN
 
