@@ -13,7 +13,11 @@ let address; // undefined
 let state = null;
 
 console.log(typeof undefined); // undefined
-console.log(typeof null); // onject
+console.log(typeof null); // object
+
+let arr = ["Ajit",25,"kumar"];
+console.log(typeof arr);
+
 
 
 /*
@@ -31,7 +35,7 @@ Primitive
 Non - primitive
 . Array
 . object 
-. RegExp
+. function
 
 */
 
