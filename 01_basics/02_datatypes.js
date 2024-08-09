@@ -6,18 +6,22 @@ console.log(3+ 3);
 
 // code readability should be high.
 
-let age = 18;
-let isAdult = true;
-let name = "Ajit";
+let age = 18;  // Number
+let isAdult = true; //Boolean
+let name = "Ajit"; // String
 let address; // undefined
-let state = null;
+let state = null; // Object
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
-
 let arr = ["Ajit",25,"kumar"];
 console.log(typeof arr);
 
+const myFunction = function() {
+    console.log("Hello world!");   
+}
+
+console.log(typeof myFunction);  // Function
 
 
 /*
@@ -35,7 +39,7 @@ Primitive
 Non - primitive
 . Array
 . object 
-. function
+. functions
 
 */
 
