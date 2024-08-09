@@ -43,5 +43,18 @@ Non - primitive
 
 */
 
+// **************** STACK AND HEAP MEMORY IN JS **************
+
+// Stack (Primitive),  Heap (Non - Primitive)
+
+/*
+STACK :- In JavaScript, static data includes primitive values like strings, numbers, boolean, null, and undefined.
+A fixed amount of memory is allocated for static data.
+
+HEAP :- It is used to store objects and functions in JavaScript. 
+The engine doesn’t allocate a fixed amount of memory. 
+*/ 
+
+
 
 
