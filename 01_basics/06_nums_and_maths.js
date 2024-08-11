@@ -16,7 +16,9 @@ console.log(hundreds.toLocaleString('en-IN'));
 
 // ************** Maths **************************
 
-console.log(Math);
+let dice = Math.floor(Math.random() * 6 ) + 1 ;
+console.log(dice);
+
 
 
 
