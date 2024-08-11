@@ -16,8 +16,20 @@ console.log(hundreds.toLocaleString('en-IN'));
 
 // ************** Maths **************************
 
-let dice = Math.floor(Math.random() * 6 ) + 1 ;
-console.log(dice);
+// let dice = Math.floor(Math.random() * 6 ) + 1 ;
+// console.log(dice);
+
+
+let number =  Math.floor(Math.random() * 10) + 1;
+console.log(number);
+
+let anotherNumber = Math.floor(Math.random() * 5);
+console.log(anotherNumber);
+
+
+
+
+
 
 
 
