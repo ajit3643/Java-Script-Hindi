@@ -46,6 +46,17 @@ console.log(myArr);
 myArr.shift();
 console.log(myArr);
 
+console.log(myArr.includes(5));  // Output - true. It means this value 5 is exists in an array.
+console.log(myArr.includes(54)); // Output - false. It means this value 54 is not exists in an array.
+
+console.log(myArr.indexOf(5));  // Output - This value contains 4th index of an array.
+
+
+
+
+
+
+
 
 
 
