@@ -36,6 +36,20 @@ console.log(myArr);
 
 // console.log(myArr.length);
 
+// Unshift () :- It adds elements to the beginning of an array.
+
+myArr.unshift(0);
+console.log(myArr);
+
+// Shift () :- It removes the first elements and returns removed element from an array.
+
+myArr.shift();
+console.log(myArr);
+
+
+
+
+
 
 
 
