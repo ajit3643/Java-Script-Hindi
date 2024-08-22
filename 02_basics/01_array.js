@@ -51,6 +51,20 @@ console.log(myArr.includes(54)); // Output - false. It means this value 54 is no
 
 console.log(myArr.indexOf(5));  // Output - This value contains 4th index of an array.
 
+let newArray = myArr.join();
+console.log(myArr);
+console.log(newArray);
+
+// sort () :- It sorts the elements of an array.
+newArray = [64,45,3,92,44,64];
+console.log(newArray);
+console.log(newArray.sort());
+
+console.log(newArr.reverse());
+
+
+
+
 
 
 
