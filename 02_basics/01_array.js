@@ -23,14 +23,14 @@ let myArr = [1,2,3,4,5];
 // Before apply push () method. Output is :- [ 1, 2, 3, 4, 5 ]
 
 myArr.push(10);
-console.log(myArr);
+// console.log(myArr);
 
 // After apply push () method. Output is :- [ 1, 2, 3, 4, 5, 10 ]
 
 // pop () - It removes the last element from an array and returns removed element.
 
 myArr.pop();
-console.log(myArr);
+// console.log(myArr);
 
 // Length :- It returns the number of elements in an array.
 
@@ -39,28 +39,44 @@ console.log(myArr);
 // Unshift () :- It adds elements to the beginning of an array.
 
 myArr.unshift(0);
-console.log(myArr);
+// console.log(myArr);
 
 // Shift () :- It removes the first elements and returns removed element from an array.
 
 myArr.shift();
-console.log(myArr);
+// console.log(myArr);
 
-console.log(myArr.includes(5));  // Output - true. It means this value 5 is exists in an array.
-console.log(myArr.includes(54)); // Output - false. It means this value 54 is not exists in an array.
+// console.log(myArr.includes(5));  // Output - true. It means this value 5 is exists in an array.
+// console.log(myArr.includes(54)); // Output - false. It means this value 54 is not exists in an array.
 
-console.log(myArr.indexOf(5));  // Output - This value contains 4th index of an array.
+// console.log(myArr.indexOf(5));  // Output - This value contains 4th index of an array.
 
 let newArray = myArr.join();
-console.log(myArr);
-console.log(newArray);
+// console.log(myArr);
+// console.log(newArray);
 
 // sort () :- It sorts the elements of an array.
 newArray = [64,45,3,92,44,64];
-console.log(newArray);
-console.log(newArray.sort());
+// console.log(newArray);
+// console.log(newArray.sort());
 
-console.log(newArr.reverse());
+// console.log(newArr.reverse());
+
+// slice, splice
+
+console.log("A",myArr);
+
+let myn1 = myArr.slice(1,3);
+console.log(myn1);
+console.log("B", myArr);
+
+let myn2 = myArr.splice(1,3);
+console.log(myn2);
+console.log("C",myArr);
+
+
+
+
 
 
 
