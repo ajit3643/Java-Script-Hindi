@@ -1,5 +1,5 @@
 
-// const tinderUser = new Object()
+// const tinderUser = new Object() --- Singalton object.
 const tinderUser = {}
 
 tinderUser.id = "123abc"
@@ -12,8 +12,8 @@ const regularUser = {
     email: "some@gmail.com",
     fullname: {
         userfullname: {
-            firstname: "hitesh",
-            lastname: "choudhary"
+            firstname: "ajit",
+            lastname: "kamath"
         }
     }
 }
