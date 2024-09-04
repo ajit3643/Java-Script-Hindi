@@ -1,15 +1,18 @@
 
 // Function definition!
 function sayMyName(){
-    console.log("A");
-    console.log("J");
-    console.log("I");
-    console.log("T");
+    // console.log("A");
+    // console.log("J");
+    // console.log("I");
+    // console.log("T");
+
+    console.log("KUMAR AJIT");
+    
     
 }
 
 // sayMyName - Function reference!, () - function execution!
-// sayMyName()
+// sayMyName() - Function call.
 
 // function addTwoNumbers(number1, number2){
 
@@ -69,3 +72,48 @@ function returnSecondValue(getArray){
 
 // console.log(returnSecondValue(myNewArray));
 //console.log(returnSecondValue([200, 400, 500, 1000]));
+
+
+
+// self study
+
+function isAdult (){
+    let age = 16;
+    if(age >= 18){
+        console.log("adult");
+        
+    }else{
+        console.log("not adult");
+        
+    }
+}
+// isAdult();
+
+function printNumber (){
+    for(let i = 0; i <= 5; i++){
+        console.log(i);
+    }
+}
+// printNumber();
+
+function poem (){
+    console.log("Twinkle, twinkle, little star,How I wonder what you are!Up above the world so high,Like a diamond in the sky.");  
+    console.log("When the blazing sun is gone,When he nothing shines upon,Then you show your little light,Twinle, twinkle, all the night.");
+    
+}
+//poem();
+
+
+function rollDice (){
+    let dice = Math.floor(Math.random()*6) + 1;
+    console.log(dice);
+    
+}
+
+rollDice();
+
+// function with passing arguments.
+function printInfo (name,age){
+console.log(`${name}'s age is ${age}.`);
+}
+printInfo("Ajit",23);
