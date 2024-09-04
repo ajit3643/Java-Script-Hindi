@@ -1,14 +1,14 @@
 
 // Function definition!
-function sayMyName(){
+function sayMyName() {
     // console.log("A");
     // console.log("J");
     // console.log("I");
     // console.log("T");
 
     console.log("KUMAR AJIT");
-    
-    
+
+
 }
 
 // sayMyName - Function reference!, () - function execution!
@@ -19,7 +19,7 @@ function sayMyName(){
 //     console.log(number1 + number2);
 // }
 
-function addTwoNumbers(number1, number2){
+function addTwoNumbers(number1, number2) {
 
     // let result = number1 + number2
     // return result
@@ -31,9 +31,9 @@ const result = addTwoNumbers(3, 5)
 // console.log("Result: ", result);
 
 
-function loginUserMessage(username = "sam"){
-    if(!username){
-       // console.log("PLease enter a username");
+function loginUserMessage(username = "sam") {
+    if (!username) {
+        // console.log("PLease enter a username");
         return
     }
     return `${username} just logged in`
@@ -43,7 +43,7 @@ function loginUserMessage(username = "sam"){
 // console.log(loginUserMessage("hitesh"))
 
 
-function calculateCartPrice(val1, val2, ...num1){
+function calculateCartPrice(val1, val2, ...num1) {
     return num1
 }
 
@@ -54,8 +54,8 @@ const user = {
     prices: 199
 }
 
-function handleObject(anyobject){
-   // console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+function handleObject(anyobject) {
+    // console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
 }
 
 // handleObject(user)
@@ -66,7 +66,7 @@ handleObject({
 
 const myNewArray = [200, 400, 100, 600]
 
-function returnSecondValue(getArray){
+function returnSecondValue(getArray) {
     return getArray[1]
 }
 
@@ -77,52 +77,60 @@ function returnSecondValue(getArray){
 
 // self study
 
-function isAdult (){
+function isAdult() {
     let age = 16;
-    if(age >= 18){
+    if (age >= 18) {
         console.log("adult");
-        
-    }else{
+
+    } else {
         console.log("not adult");
-        
+
     }
 }
 // isAdult();
 
-function printNumber (){
-    for(let i = 0; i <= 5; i++){
+function printNumber() {
+    for (let i = 0; i <= 5; i++) {
         console.log(i);
     }
 }
 // printNumber();
 
-function poem (){
-    console.log("Twinkle, twinkle, little star,How I wonder what you are!Up above the world so high,Like a diamond in the sky.");  
+function poem() {
+    console.log("Twinkle, twinkle, little star,How I wonder what you are!Up above the world so high,Like a diamond in the sky.");
     console.log("When the blazing sun is gone,When he nothing shines upon,Then you show your little light,Twinle, twinkle, all the night.");
-    
+
 }
 //poem();
 
 
-function rollDice (){
-    let dice = Math.floor(Math.random()*6) + 1;
+function rollDice() {
+    let dice = Math.floor(Math.random() * 6) + 1;
     console.log(dice);
-    
+
 }
 
 rollDice();
 
 // function with passing arguments.
-function printInfo (name,age){
-console.log(`${name}'s age is ${age}.`);
+function printInfo(name, age) {
+    console.log(`${name}'s age is ${age}.`);
 }
-printInfo("Ajit",23);
+printInfo("Ajit", 23);
 
 
-function average (num1,num2,num3){
+function average(num1, num2, num3) {
 
-    let average = (num1 + num2 +num3) / 3;
+    let average = (num1 + num2 + num3) / 3;
     console.log(average);
-    
+
 }
-average(575,698,546);
+average(575, 698, 546);
+
+function table(table) {
+    for (let i = 1; i <= 10; i++) {
+        let mlt = table * i;
+        console.log(mlt);
+    }
+}
+table(5);
