@@ -130,7 +130,7 @@ average(575, 698, 546);
 function table(table) {
     for (let i = 1; i <= 10; i++) {
         let mlt = table * i;
-        console.log(mlt);
+        console.log(`5 * ${i} = ${mlt}`);
     }
 }
 table(5);
