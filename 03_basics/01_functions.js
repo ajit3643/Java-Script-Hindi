@@ -117,3 +117,12 @@ function printInfo (name,age){
 console.log(`${name}'s age is ${age}.`);
 }
 printInfo("Ajit",23);
+
+
+function average (num1,num2,num3){
+
+    let average = (num1 + num2 +num3) / 3;
+    console.log(average);
+    
+}
+average(575,698,546);
